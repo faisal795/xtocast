@@ -12,7 +12,7 @@ const NavLinks = ({ OpenNav }) => {
       <ul
         className={`transition-all duration-300 ease-in-out ${
           OpenNav ? "left-0" : "left-[-332px]"
-        } absolute  w-[320px] h-full z-[1000] bg-white lg:relative lg:left-auto lg:w-auto lg:h-auto lg:z-auto lg:bg-transparent lg:flex`}
+        } absolute  w-[300px] h-full z-[1000] bg-white lg:relative lg:left-auto lg:w-auto lg:h-auto lg:z-auto lg:bg-transparent lg:flex`}
       >
         <Link to="Home" className="lg:px-[18px] py-0 flex items-center justify-center border-t border-t-[#f0f0f0] lg:border-t-0 hover:text-[#01455d] cursor-pointer">
           <li className="w-full py-[12px] pr-[15px] pl-[26px] lg:w-auto lg:py-0 lg:pr-0 lg:pl-0">
